@@ -216,3 +216,19 @@ p{
 .interest ul li{
     padding: 15px;
 }
+
+/* for smartphone */
+@media screen and (max-width: 480px) {
+    body{
+        padding: 5px;
+    }
+   * {font-size :clamp(1rem, -3rem + -20vw, 3rem);
+    }
+}
+
+/* for tablet */
+@media screen and (max-width: 768px) {
+   * {font-size :clamp(1rem, -2.rem + 11.1498vw, 3rem);
+    }
+}
+
